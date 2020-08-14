@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "GraficasDinamicas"
+    }
+  },
+  "defaultProject": "GraficasDinamicas",
+  "cli": {
+    "analytics": false
+  }
 }
