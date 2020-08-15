@@ -1,0 +1,15 @@
+<h1>Dona</h1>
+<div>
+  <div>
+    <div style="display: block">
+      <canvas baseChart
+              [data]="doughnutChartData"
+              [labels]="doughnutChartLabels"
+              [chartType]="doughnutChartType">
+      </canvas>
+    </div>
+    <div class="col col-md-4 mx-auto mt-4">
+      <button class="btn btn-primary btn-block" (click)="random()">Aleatorio</button>
+    </div>
+  </div>
+</div>
